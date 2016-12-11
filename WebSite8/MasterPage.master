@@ -13,7 +13,7 @@
         <div style="width: auto; height: 165px; padding: 10px;">
             
             <div style="float: left">
-                <h2>My Garage</h2>
+                <h2>Home</h2>
             
                 <div style="padding-top: 20px">
                     <asp:HyperLink ID="HyperLink4" NavigateUrl="~/Index.aspx" runat="server" ForeColor="Black">My Cars</asp:HyperLink>
