@@ -13,10 +13,12 @@
         <div style="width: auto; height: 165px; padding: 10px;">
             
             <div style="float: left">
-                <h2>Home</h2>
+                <h2>Marea bookmark-areala</h2>
             
                 <div style="padding-top: 20px">
-                    <asp:HyperLink ID="HyperLink4" NavigateUrl="~/Index.aspx" runat="server" ForeColor="Black">My Cars</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink4" NavigateUrl="~/Index.aspx" runat="server" ForeColor="Black">HOME</asp:HyperLink>
+                    |
+                    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/MyHome.aspx" runat="server" ForeColor="Black">My Stuff</asp:HyperLink>
                     |
                     <asp:HyperLink ID="HyperLink5" NavigateUrl="~/AddBookmark.aspx" runat="server" ForeColor="Black">Add Bookmark</asp:HyperLink>
                     <asp:LoginView ID="LoginView3" runat="server">

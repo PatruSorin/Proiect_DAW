@@ -23,7 +23,7 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void submit1_Click(object sender, EventArgs e)
     {
-        var t1 = (TextBox)LoginView1.FindControl("t2");
+        var t1 = (TextBox)LoginView1.FindControl("t1");
 
         int id_bookmark;
 

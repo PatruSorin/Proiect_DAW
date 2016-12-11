@@ -2,14 +2,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="server">
 
-    <asp:DropDownList ID="Ordine" runat="server" OnSelectedIndexChanged="Dropwdown1_Click">
-        <asp:ListItem Enabled="true" Text="Crescator" Value="1"></asp:ListItem>
-        <asp:ListItem Text="Descrescator" Value="2"></asp:ListItem>
-    </asp:DropDownList>
-    <asp:DropDownList ID="Categorie" runat="server" OnSelectedIndexChanged="Dropwdown1_Click">
-        <asp:ListItem Enabled="true" Text="Data" Value="1"></asp:ListItem>
-        <asp:ListItem Text="Rating" Value="2"></asp:ListItem>
-    </asp:DropDownList>
+
     
     <asp:Button ID="Button1" runat="server" Text="Date descrescator" OnClick="Button1_Click" />
     <asp:Button ID="Button2" runat="server" Text="Date crescator" OnClick="Button2_Click" />
@@ -66,7 +59,7 @@
                     <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/Comentarii.aspx?id={0}" HeaderText="Comentarii" Text="Comentarii" />
                     <asp:HyperLinkField  Text='<img src="http://i.imgur.com/nFn8U6a.png" border="0" height="20px" />'  DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/UpvoteBookmark.aspx?id={0}"/>
                     <asp:HyperLinkField  Text='<img src="http://orig05.deviantart.net/cd48/f/2011/342/e/4/descentia_cutie_mark_vector_by_gandodepth-d4iji5f.png" border="0" height="20px" />'  DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/DownvoteBookmark.aspx?id={0}"/>
-
+                    <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/StarBookmark.aspx?id={0}" HeaderText="Favorite" Text="Star" />
                 </Columns>
 
                 </asp:GridView>
@@ -90,6 +83,7 @@
                     <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/Comentarii.aspx?id={0}" HeaderText="Comentarii" Text="Comentarii" />
                     <asp:HyperLinkField  Text='<img src="http://i.imgur.com/nFn8U6a.png" border="0" height="20px" />'  DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/UpvoteBookmark.aspx?id={0}"/>
                     <asp:HyperLinkField  Text='<img src="http://orig05.deviantart.net/cd48/f/2011/342/e/4/descentia_cutie_mark_vector_by_gandodepth-d4iji5f.png" border="0" height="20px" />'  DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/DownvoteBookmark.aspx?id={0}"/>
+                    <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/StarBookmark.aspx?id={0}" HeaderText="Favorite" Text="Star" />
                 </Columns>
 
                 </asp:GridView>
