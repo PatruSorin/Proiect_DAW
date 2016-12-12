@@ -48,6 +48,8 @@
                 <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1">
 
                 <Columns>
+                    <asp:HyperLinkField  Text='<img src="http://i.imgur.com/nFn8U6a.png" border="0" height="20px" />'  DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/UpvoteBookmark.aspx?id={0}"/>
+                    <asp:HyperLinkField  Text='<img src="http://orig05.deviantart.net/cd48/f/2011/342/e/4/descentia_cutie_mark_vector_by_gandodepth-d4iji5f.png" border="0" height="20px" />'  DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/DownvoteBookmark.aspx?id={0}"/>
                     <asp:BoundField DataField="Id" HeaderText="Id" InsertVisible="False" ReadOnly="True" SortExpression="Id" />
                     <asp:BoundField DataField="titlu" HeaderText="titlu" SortExpression="titlu" />
                     <asp:HyperLinkField  DataNavigateUrlFields="link" HeaderText="link" Text="link" />
@@ -57,8 +59,7 @@
                     <asp:BoundField DataField="cuvinte_cheie" HeaderText="cuvinte_cheie" SortExpression="cuvinte_cheie" />
                     <asp:BoundField DataField="date" HeaderText="date" SortExpression="date" />
                     <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/Comentarii.aspx?id={0}" HeaderText="Comentarii" Text="Comentarii" />
-                    <asp:HyperLinkField  Text='<img src="http://i.imgur.com/nFn8U6a.png" border="0" height="20px" />'  DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/UpvoteBookmark.aspx?id={0}"/>
-                    <asp:HyperLinkField  Text='<img src="http://orig05.deviantart.net/cd48/f/2011/342/e/4/descentia_cutie_mark_vector_by_gandodepth-d4iji5f.png" border="0" height="20px" />'  DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/DownvoteBookmark.aspx?id={0}"/>
+                    
                     <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/StarBookmark.aspx?id={0}" HeaderText="Favorite" Text="Star" />
                 </Columns>
 
@@ -71,6 +72,8 @@
                 <asp:GridView ID="GridView3" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1">
 
                 <Columns>
+                    <asp:HyperLinkField  Text='<img src="http://plainicon.com/dboard/userprod/2728_f69a3/prod_thumb/plainicon.com-54752-256px-123.png" border="0" height="20px" />'  DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/UpvoteBookmark.aspx?id={0}"/>
+                    <asp:HyperLinkField  Text='<img src="http://www.clipartkid.com/images/27/download-public-domain-ihtHTQ-clipart.png" border="0" height="20px" />'  DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/DownvoteBookmark.aspx?id={0}"/>
                     <asp:BoundField DataField="Id" HeaderText="Id" InsertVisible="False" ReadOnly="True" SortExpression="Id" />
                     <asp:BoundField DataField="titlu" HeaderText="titlu" SortExpression="titlu" />
                     <asp:HyperLinkField  DataNavigateUrlFields="link" HeaderText="link" Text="link" />
@@ -81,8 +84,7 @@
                     <asp:BoundField DataField="date" HeaderText="date" SortExpression="date" />
                     <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/DeleteBookmark.aspx?id={0}" HeaderText="Delete Bookmark" Text="Delete" />
                     <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/Comentarii.aspx?id={0}" HeaderText="Comentarii" Text="Comentarii" />
-                    <asp:HyperLinkField  Text='<img src="http://i.imgur.com/nFn8U6a.png" border="0" height="20px" />'  DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/UpvoteBookmark.aspx?id={0}"/>
-                    <asp:HyperLinkField  Text='<img src="http://orig05.deviantart.net/cd48/f/2011/342/e/4/descentia_cutie_mark_vector_by_gandodepth-d4iji5f.png" border="0" height="20px" />'  DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/DownvoteBookmark.aspx?id={0}"/>
+                    
                     <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="~/StarBookmark.aspx?id={0}" HeaderText="Favorite" Text="Star" />
                 </Columns>
 

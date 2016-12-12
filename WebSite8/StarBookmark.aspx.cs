@@ -34,4 +34,8 @@ public partial class _Default : System.Web.UI.Page
        com.ExecuteNonQuery();
 
     }
+    protected void b1_Click(object sender, EventArgs e)
+    {
+        String data = Categorie.SelectedValue;
+    }
 }

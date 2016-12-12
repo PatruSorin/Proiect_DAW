@@ -10,6 +10,8 @@ public partial class _Default : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         string id_utilizator = User.Identity.Name;
-        SqlDataSource1.SelectCommand = "SELECT * FROM bookmark b , my_bookmarks m where b.id = m.id_bookmark and m.id_utilizator = '" + id_utilizator + "'";
+        SqlDataSource1.SelectCommand = "SELECT * FROM bookmark b , my_bookmarks m where b.id = m.id_bookmark and m.id_utilizator = '" + id_utilizator + "' and categorie='food'";
+        SqlDataSource2.SelectCommand = "SELECT * FROM bookmark b , my_bookmarks m where b.id = m.id_bookmark and m.id_utilizator = '" + id_utilizator + "' and categorie='arta'";
+        SqlDataSource3.SelectCommand = "SELECT * FROM bookmark b , my_bookmarks m where b.id = m.id_bookmark and m.id_utilizator = '" + id_utilizator + "' and categorie='hobby'";
     }
 }
