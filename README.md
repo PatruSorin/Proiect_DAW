@@ -1,6 +1,6 @@
-# Proiect_DAW
+# Proiect DAW
 
-# Cerinte
+## Cerinte
 
 Site pentru social bookmarking cu urmatoarele facilitati:
 
@@ -19,6 +19,6 @@ Site pentru social bookmarking cu urmatoarele facilitati:
 - administratorul se ocupa de verificarea continutului site-ului. Acesta poate strege bookmark-urile sau comentariile necorespunzatoare. 
 
 
-# Resurse
+## Resurse
 
 http://daw-aspnet.herokuapp.com/
